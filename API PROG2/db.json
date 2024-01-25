@@ -1,0 +1,68 @@
+{
+  "libros": 
+  [
+    {
+      "id": 1,
+      "titulo": "Tan cerca de ti"
+    },
+    {
+      "id": 2,
+      "titulo": "Eleanor y Park"
+    },
+    {
+      "id": 3,
+      "titulo": "Muertes perfectamente evitables"
+    },
+    {
+      "id": 4,
+      "titulo": "El bosque de los suzurros"
+    },
+    {
+      "id": 5,
+      "titulo": "Bajo la misma estrella"
+    },
+    {
+      "id": 6,
+      "titulo": "If i stay"
+    },
+    {
+      "id": 7,
+      "titulo": "El teorema Katherine"
+    }
+  ],
+  "alumnos":
+  [  
+    {
+      "id": 1,
+      "nombre": "Mariano Garcia",
+      "dni": 4685682
+    },
+    {
+      "id": 2,
+      "name": "Juan Garcia",
+      "dni": 2921555
+    },
+    {
+      "id": 3,
+      "name": "Sol Maria",
+      "dni": 4525741
+    },
+    {
+      "id": 4,
+      "name": "Agustina Ponce",
+      "dni": 1583233
+    }
+  ],
+  "prestamo":
+  [
+    {
+      "id": 1,
+      "librosId": 2,
+      "alumnoId": 1,
+      "fechaprestamo": "10/15/23",
+      "fechadevolucion": ""
+    }
+
+
+  ]
+}

@@ -1,0 +1,80 @@
+h1{
+	text-align: center;
+  text-decoration: underline;
+  background-color: #f2f2f2; /* Color de fondo gris claro, puedes ajustar el valor según tus preferencias */
+  padding: 10px; /* Añade algún espacio interno para mejorar el aspecto visual */
+} 	
+
+.division{
+	display: flex;
+  	justify-content: center; /* Centra el contenido horizontalmente */
+  	align-items: center; /* Centra el contenido verticalmente */
+  	height: 80vh; /* Ajusta la altura según tus necesidades */
+} 	
+
+section{
+	display: flex;
+	width: 600px;
+	height: 430px;
+}
+
+section img{
+	width: 0px;
+	flex-grow: 1;
+	object-fit: cover;
+	opacity: .8;
+	transition: .5 ease;
+}
+
+section img:hover{
+	cursor: crosshair;
+	width: 300px;
+	opacity: 1;
+	filter: contrast(120%);
+}
+
+/*Footer*/
+/*footer*/ 
+footer {
+    /*background-color: #2c3e50; /* Cambiado a un tono mÃ¡s oscuro */
+    background-color: #3498db;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #2980b9;
+}
+
+nav img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+nav img:hover {
+    transform: scale(1.2);
+}
+
+/* Agrega un poco de espacio en la parte inferior del footer */
+footer {
+    margin-top: 50px;
+}
